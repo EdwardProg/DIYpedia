@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DIYpedia</title>
+	<link rel="icon" href="https://diypedia.club/wp-content/uploads/2018/01/11.png">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/adapt.css">
+	<script src="js/main.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="saidbar" id="saidbar" onclick="show()">
+			<div class="toggle-btn">
+				<span class="s"></span>
+				<span class="s"></span>
+				<span class="s"></span>
+			</div>
+
+			<h5 class="h">DIYpedia</h5>
+			<div class="divh1"><a href="#" class="add">Добавить запись</a></div>
+			<div class="divh3">
+				<ul>
+					<li><a href="#" class="a2">Без рубрики</a></li>
+					<li><a href="#" class="a2">Игрушки из дерева</a></li>
+					<li><a href="#" class="a2">Игрушки из текстиля</a></li>
+					<li><a href="#" class="a2">Игрушки из бумаги</a></li>
+				</ul>
+			</div>
+			<input class="inh1" type="text" placeholder="Поиск">
+			<button class="btnh1"><img class="icon" src="https://www.iconsdb.com/icons/preview/white/search-3-xxl.png"></button>
+			<div class="divh3">
+				<ul>
+					<li><a href="#" class="a2">Русский</a></li>
+					<li><a href="#" class="a2">Englis</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="div0">
+			<h5 class="gh5">DYIpedia</h5>
+			<input class="in" type="text" placeholder="Поиск">
+			<button class="btn"><img class="icon" src="https://www.iconsdb.com/icons/preview/white/search-3-xxl.png"></button>
+			<select>
+				<option value="Русский">Русский</option>
+				<option value="English">English</option>
+			</select>
+			<div class="div1">
+				<a href="#" class="child0">Вход</a>
+				<a href="#" class="child0">Регистрация</a>
+			</div>
+		</div>
+	</header>
+
+	<div class="content">
+		<div class="div2"><a href="#" class="add">Добавить запись</a></div>
+		<div class="div3">
+			<ul>
+				<li><a href="#" class="a2">Без рубрики</a></li>
+				<li><a href="#" class="a2">Игрушки из дерева</a></li>
+				<li><a href="#" class="a2">Игрушки из текстиля</a></li>
+				<li><a href="#" class="a2">Игрушки из бумаги</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="saidbar0">
+		<span class="sort">Сортировка : </span>
+		<div onclick="f1()" id="new" class="block1"><a id="a1" class="a4" href="#">Новые</a></div>
+		<div onclick="f2()" id="popular" class="block2"><a id="a2" class="a5" href="#">Популярные</a></div>
+	</div>
+
+	<div class="saidbar1">
+		<img src="https://i.pinimg.com/originals/98/c8/76/98c876e832220742ea8fc5acfe956c17.jpg" class="img1">
+		<br>
+		<br>
+		<p class="p1"><strong>Как сделать железную игрушку</strong></p>
+		<br>
+		<span class="span1">admin</span><br><br>
+		<div class="hr"></div>
+
+		<div class="i1"><img class="icon1" src="https://image.flaticon.com/icons/svg/633/633991.svg"><span class="span2">18</span></div>
+
+		<div class="i2"><img class="icon2" src="https://image.flaticon.com/icons/svg/565/565654.svg"><span class="span3">26</span></div>
+
+		<div class="i3"><img onclick="f3()" class="icon3" src="https://image.flaticon.com/icons/svg/1159/1159823.svg"></div>
+	</div>
+
+	<div class="saidbar2">
+		<img src="https://diypedia.club/wp-content/uploads/2019/01/korobochka-origami-250x190.jpg.webp" class="img1">
+		<br>
+		<br>
+		<p class="p1"><strong>Как сделать подарочную коробку своими руками</strong></p>
+		<br>
+		<span class="span1">admin</span><br><br>
+		<div class="hr"></div>
+
+		<div class="i1"><img class="icon1" src="https://image.flaticon.com/icons/svg/633/633991.svg"><span class="span2">7</span></div>
+
+		<div class="i2"><img class="icon2" src="https://image.flaticon.com/icons/svg/565/565654.svg"><span class="span3">16</span></div>
+
+		<div class="i3"><img onclick="f3()" class="icon3" src="https://image.flaticon.com/icons/svg/1159/1159823.svg"></div>
+	</div>
+
+	<div class="saidbar3">
+		<img src="https://diypedia.club/wp-content/uploads/2018/02/podstavka-iz-palochek-250x190.jpg.webp" class="img1">
+		<br>
+		<br>
+		<p class="p1"><strong>Подставка под кружку своими руками</strong></p>
+		<br>
+		<span class="span1">Prototype</span><br><br>
+		<div class="hr"></div>
+
+		<div class="i1"><img class="icon1" src="https://image.flaticon.com/icons/svg/633/633991.svg"><span class="span2">8</span></div>
+
+		<div class="i2"><img class="icon2" src="https://image.flaticon.com/icons/svg/565/565654.svg"><span class="span3">19</span></div>
+
+		<div class="i3"><img onclick="f3()" class="icon3" src="https://image.flaticon.com/icons/svg/1159/1159823.svg"></div>
+	</div>
+
+	<div class="saidbar4">
+		<img src="https://diypedia.club/wp-content/uploads/2017/11/byket-cvetov-iz-konfet-250x190.jpg.webp" class="img1">
+		<br>
+		<br>
+		<p class="p1"><strong>Букет цветов из конфет и бумаги своими руками</strong>
+		</p>
+		<br>
+		<span class="span1">Edward</span><br><br>
+		<div class="hr"></div>
+
+		<div class="i1"><img class="icon1" src="https://image.flaticon.com/icons/svg/633/633991.svg"><span class="span2">12</span></div>
+
+		<div class="i2"><img class="icon2" src="https://image.flaticon.com/icons/svg/565/565654.svg"><span class="span3">22</span></div>
+
+		<div class="i3"><img onclick="f3()" class="icon3" src="https://image.flaticon.com/icons/svg/1159/1159823.svg"></div>
+	</div>
+</html>

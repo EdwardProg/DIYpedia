@@ -1,0 +1,191 @@
+@media screen and (max-width: 1458px) {
+	.saidbar4 {
+		margin-top: 390px;
+		position: absolute;
+		left: 250px;
+	}
+
+	.saidbar3 {
+		margin-top: 390px;
+		position: absolute;
+		left: 550px;
+	}
+}
+
+@media screen and (max-width: 1340px) {
+	.in {
+		width: 500px;
+	}
+
+	.btn {
+		position: absolute;
+		left: 780px;
+	}
+
+	select {
+		position: absolute;
+		left: 860px;
+	}
+}
+
+@media screen and (max-width: 1260px) {
+	.in {
+		width: 420px;
+	}
+
+	.btn {
+		position: absolute;
+		left: 700px;
+	}
+
+	select {
+		position: absolute;
+		left: 780px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.in {
+		width: 340px;
+	}
+
+	.btn {
+		position: absolute;
+		left: 620px;
+	}
+
+	select {
+		position: absolute;
+		left: 700px;
+	}
+}
+
+@media screen and (max-width: 1170px) {
+	.in {
+		width: 260px;
+	}
+
+	.btn {
+		position: absolute;
+		left: 540px;
+	}
+
+	select {
+		position: absolute;
+		left: 620px;
+	}
+}
+
+@media screen and (max-width: 1008px) {
+	.in {
+		width: 180px;
+	}
+
+	.btn {
+		position: absolute;
+		left: 460px;
+	}
+
+	select {
+		position: absolute;
+		left: 540px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	.gh5 {
+		display: none;
+	}
+
+	.in {
+		display: none;
+	}
+
+	.btn {
+		display: none;
+	}
+
+	select {
+		display: none;
+	}
+
+	.content {
+		display: none;
+	}
+
+	.saidbar {
+		display: block;
+	}
+
+	.div1 {
+		margin-top: 13px;
+	}
+
+	.saidbar0 {
+		position: absolute;
+		left: -230px;
+	}
+
+	.saidbar1 {
+		position: absolute;
+		left: 20px;
+	}
+
+	.saidbar2 {
+		position: absolute;
+		left: 300px;
+	}
+
+	.saidbar3 {
+		position: absolute;
+		left: 20px;
+	}
+
+	.saidbar4 {
+		position: absolute;
+		left: 300px;
+	}
+
+}
+
+@media screen and (max-width: 555px) {
+	.saidbar3 {
+		position: absolute;
+		top: 950px;
+		width: 92%;
+	}
+
+	.saidbar4 {
+		position: absolute;
+		top: 550px;
+		left: 20px;
+		width: 92%;
+	}
+
+	.saidbar2 {
+		position: absolute;
+		top: 550px;
+		left: 20px;
+		width: 92%;
+	}
+
+	.saidbar1 {
+		width: 92%;
+	}
+
+	.saidbar1 .icon1 {
+		margin-top: 12px;
+	}
+
+	.saidbar3 .icon1 {
+		margin-top: 12px;
+	}
+
+	.saidbar3 .hr {
+		margin-top: 10px;
+	}
+
+	.saidbar1 .hr {
+		margin-top: 10px;
+	}
+}
